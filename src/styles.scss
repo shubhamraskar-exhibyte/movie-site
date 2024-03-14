@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover, a.active {
+  color: #ff0000;
+}
+
+.ng-image-slider .ng-image-slider-container .main .main-inner .img-div img {
+  object-fit: cover ;
+}
